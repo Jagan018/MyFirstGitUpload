@@ -32,6 +32,7 @@ public class GitWebDriverCheck {
 		driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[2]/div[2]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div[1]/div[1]/div/div/div/div/div[1]/div/div[1]/input")).sendKeys("asdasdasd");
 		driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[2]/div[2]/div/div/div[2]/div/div[2]/div/div[1]/div/span/span")).click();
 		
+		System.out.println("Successfull Completed");
 	}
 	
 	@AfterSuite
